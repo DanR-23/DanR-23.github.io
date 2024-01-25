@@ -1,0 +1,399 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* header and nav bar */
+header {
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    background-color: rgba(32, 32, 32, 0.329);
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    text-align: left;
+}
+
+.discount {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    width: 270px;
+}
+
+#navbar-Logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 0, 0);
+    margin-left: auto;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(255, 0, 0);
+}
+
+#navbarNav {
+    text-align: left;
+}
+
+/* background image */
+.backgroundImage {
+    width: 100%;
+    background-image: url(RestaurantImages/backgroundRestaurantImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 80px;
+}
+
+.section-h2 {
+    color: rgb(255, 255, 255);
+    font-family: initial;
+    font-size: 70px;
+    padding-top: 0px;
+}
+
+.section-para {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.mnuBtn {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.mnuBtn:hover {
+    color: rgb(255, 0, 0);
+}
+
+.section-box {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+
+/* main */
+main {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding-bottom: 300px;
+}
+
+/* about us */
+.aboutUs {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+
+.AboutUs-paragraph {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    font-size: 18px;
+}
+
+.para1 {
+    color: rgb(129, 129, 129);
+}
+
+.para2 {
+    color: rgb(129, 129, 129);
+}
+
+.para3 {
+    color: rgb(129, 129, 129);
+}
+
+#main-img-row1 {
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-img-row2 {
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 250px;
+    padding-bottom: 4%;
+}
+
+.img-fluid2 {
+    width: 100%;
+    height: 250px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+/* Menus */
+h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 25%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    max-width: 500px;
+    height: 200px;
+    margin: 32px auto;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+a.imagelink {
+    width: 50%;
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+a.imagelink img {
+    vertical-align:     middle;
+    transition:         opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+
+a.imagelink:hover img {
+    opacity:            0.5;
+}
+
+/* Book your table form */
+h3 {
+    padding-top: 20%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.container2 {
+    background-color: rgb(128, 128, 128);
+    margin: 5%;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container-time {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    outline: 3px dashed rgb(255, 0, 0);
+    outline-offset: -30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.heading {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.heading-days {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+hr {
+    padding-top: 15px;
+}
+
+.heading-phone {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.container-form {
+    padding: 20px 0;
+    margin: 0 auto;
+    color: rgba(0, 0, 0);
+}
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+form p {
+    font-weight: 600;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select {
+    pad: 10px 15px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .95);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+
+/* Calendar */
+.main {
+    width:200px;
+    border:1px solid rgba(0, 0, 0);
+}
+    
+.month {
+    background-color:rgb(24, 6, 6);
+    font:bold 12px verdana;
+    color:rgb(233, 14, 14);
+}
+    
+.daysofweek {
+    background-color:rgb(19, 5, 5);
+    font:bold 12px verdana;
+    color:rgba(255, 255, 255);
+}
+    
+.days {
+    font-size: 12px;
+    font-family:verdana;
+    color:rgb(255, 255, 255);
+    background-color: rgb(17, 17, 8);
+    padding: 2px;
+}
+    
+.days #today{
+    font-weight: bold;
+    color: rgba(255, 0, 0);
+}
+
+    
+/* footer */
+footer {
+    background-color: rgb(72, 69, 69);
+    width: 100%;
+    height: 200px;
+}
+
+.float-container {
+    border: 1px
+}
+
+.float-child {
+    width: 25%;
+    float: left;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px
+}  
+
+h7 {
+    color: rgba(255, 0, 0);
+    font-size: 30px;
+}
+
+.Tel {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+h8 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.Email {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+h9 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.Opening-Times {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+h10 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.Address {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}

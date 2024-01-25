@@ -1,0 +1,71 @@
+html {
+    background-color: rgb(58, 56, 56);
+}
+
+.mnu-header-page {
+    height: 800px;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(74, 74, 74);
+    padding-top: 400px;
+}
+
+.mnu {
+    height: 800px;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.mnu-heading {
+    color: rgb(74, 74, 74);
+    font-size: 15px;
+    padding-top: 12%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.food-platters {
+    float: left;
+    color: rgb(74, 74, 74);
+    font-size: 15px;
+    padding-bottom: 9%;
+    padding-left: 8%;
+}
+
+.food-price-platters {
+    float: right;
+    padding-bottom: 9%;
+    padding-right: 6%;
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+}
+
+.food {
+    float: left;
+    color: rgb(74, 74, 74);
+    font-size: 15px;
+    padding-bottom: 5%;
+    padding-left: 8%;
+}
+
+.food-price {
+    float: right;
+    padding-bottom: 5%;
+    padding-right: 6%;
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+}
+
+.container2 {
+    padding-top: 10%;
+}
