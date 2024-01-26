@@ -56,15 +56,17 @@ h1 {
     font-size: 15px;
     background-color: red;
     width: 800px;
-    margin-top: 20px;
+    margin-top: 7%;
+    padding-left: 8%;
 }
 
 .food-price {
     float: right;
     font-size: 15px;
     color: rgb(74, 74, 74);
+    padding-right: 6%;
 }
 
 .container2 {
-    background-color: orange
+    
 }
