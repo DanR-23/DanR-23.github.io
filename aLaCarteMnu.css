@@ -61,8 +61,6 @@ h1 {
 
 .food-price {
     float: right;
-    padding-bottom: 5%;
-    padding-right: 6%;
     font-size: 15px;
     color: rgb(74, 74, 74);
     background-color: yellow;
