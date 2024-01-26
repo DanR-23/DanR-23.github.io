@@ -55,7 +55,8 @@ h1 {
     color: rgb(74, 74, 74);
     font-size: 15px;
     padding-bottom: 5%;
-    padding-left: 8%;
+    background-color: red;
+    width: 50%;
 }
 
 .food-price {
